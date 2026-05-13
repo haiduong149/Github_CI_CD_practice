@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class CI_CD_001 {	
 	@Test
-		public static void main(String[] args) {
+		public void loginTest() { {
 			// TODO Auto-generated method stub
 		
 			WebDriver driver = new ChromeDriver();
