@@ -1,4 +1,5 @@
 package P01;
+import java.io.IOException;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,7 +8,7 @@ import org.testng.annotations.Test;
 
 public class CI_CD_001 {	
 	@Test
-		public void loginTest() { {
+		public void loginTest() throws InterruptedException, IOException { 
 			// TODO Auto-generated method stub
 		
 			WebDriver driver = new ChromeDriver();
