@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-13T15:47:38 ICT" name="Default suite" finished-at="2026-05-13T15:47:42 ICT" duration-ms="4537">
+  <suite started-at="2026-05-13T16:27:21 ICT" name="Suite" finished-at="2026-05-13T16:27:27 ICT" duration-ms="6749">
     <groups>
     </groups>
-    <test started-at="2026-05-13T15:47:38 ICT" name="Default test" finished-at="2026-05-13T15:47:42 ICT" duration-ms="4537">
-      <class name="P01.CI_CD_001">
-        <test-method signature="loginTest()[pri:0, instance:P01.CI_CD_001@e15b7e8]" started-at="2026-05-13T15:47:38 ICT" name="loginTest" finished-at="2026-05-13T15:47:42 ICT" duration-ms="4488" status="PASS">
+    <test started-at="2026-05-13T16:27:21 ICT" name="Test" finished-at="2026-05-13T16:27:27 ICT" duration-ms="6749">
+      <class name="com.CI_CD_Test001">
+        <test-method signature="loginTest()[pri:0, instance:com.CI_CD_Test001@e15b7e8]" started-at="2026-05-13T16:27:21 ICT" name="loginTest" finished-at="2026-05-13T16:27:27 ICT" duration-ms="6710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-      </class> <!-- P01.CI_CD_001 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.CI_CD_Test001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

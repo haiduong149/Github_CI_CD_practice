@@ -1,4 +1,4 @@
-package P01;
+package com;
 import java.io.IOException;
 import java.time.Duration;
 import org.openqa.selenium.By;
@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class CI_CD_001 {	
+public class CI_CD_Test001 {	
 	@Test
 		public void loginTest() throws InterruptedException, IOException { 
 			// TODO Auto-generated method stub

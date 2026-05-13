@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="P01.CI_CD_001"/>
+      <class name="com.CI_CD_Test001"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
