@@ -15,6 +15,7 @@ public class CI_CD_Test001 {
 		
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			//LOG IN
+			// add new comment
 			driver.get("https://rahulshettyacademy.com/client");
 			driver.findElement(By.id("userEmail")).sendKeys("laidiephaiduong@gmail.com");
 			driver.findElement(By.id("userPassword")).sendKeys("seleniumframework");
